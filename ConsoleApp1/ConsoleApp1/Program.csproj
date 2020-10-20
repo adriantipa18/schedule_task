@@ -114,10 +114,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="Contact.cs" />
-    <Compile Include="Schedule.cs" />
+    <Compile Include="schedule_module\Client.cs" />
+    <Compile Include="schedule_module\Contact.cs" />
+    <Compile Include="schedule_module\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="schedule_module\Schedule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
